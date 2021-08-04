@@ -1,0 +1,1 @@
+function verifier(champs, carac_min, carac_max){   if(champs.value.length < carac_min || champs.value.length > carac_max){      champs.style.backgroundColor = "#ff4242";   }   else{      champs.style.backgroundColor = "#4cff87";   }}

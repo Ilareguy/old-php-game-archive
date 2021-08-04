@@ -1,0 +1,479 @@
+body
+{
+   margin-top: 20px;
+   background-image: url("images/Templates/design_defaut/Fonds/fond2.gif");
+   font-family: "Monotype Corsiva", "Belwe Cn BT", "Maiandra GD", "Segoe Print", serif;
+   font-size: 1.35em;
+   text-align: center;
+   max-width: 1200px;
+}
+
+.succes
+{
+   color: #006400;
+}
+
+.erreur
+{
+   color: #8b0000;
+}
+
+.information
+{
+   color: #008aa1;
+}
+
+.alerte
+{
+   color: red;
+}
+
+.attention
+{
+   color: #8b0000;
+}
+
+.gauche
+{
+   text-align: left;
+}
+
+.droite
+{
+   text-align: right;
+}
+
+p
+{
+  margin: 3px;
+}
+
+a
+{
+   color: rgb(30,24,131);
+   text-decoration: none;
+}
+
+a:hover
+{
+   color: blue;
+}
+
+a:active, a:focus
+{
+   outline-style: none;
+}
+
+a img /* Tous les images qui sont dans les liens */
+{
+   border: none;
+}
+
+img
+{
+   border: none;
+}
+
+#banniere
+{
+   position: relative;
+   margin-left: 270px;
+   width: 61%;
+   background-repeat: no-repeat;
+   border-color: rgb(255, 255, 210);
+   margin-bottom: 8px;
+}
+
+#menu_actions_jeu
+{
+   width: 230px;
+   margin-left: 10px;
+   top: 20px;
+   float: left;
+   position: absolute;
+   font-size: 1.1em;
+   border: 2px solid black;
+   background-image: url("images/Templates/design_defaut/Fonds/fond3.jpg");
+   
+   -moz-border-radius: 10px 10px 10px 10px;       /*Ces trois lignes permettent d'ajouter*/
+   -webkit-border-radius: 10px 10px 10px 10px;    /*les rebords arrondis sur */
+   border-radius: 10px 10px 10px 10px;            /*plusieurs navigateurs différents*/
+}
+
+#menu_actions_jeu #infos
+{
+   height: 125px;
+   margin: 3px;
+   border: 4px solid black;
+   -moz-border-radius: 30px 0px 30px 0px;
+   -webkit-border-radius: 30px 0px 30px 0px;
+   border-radius: 30px 0px 30px 0px;
+   background-color: #9fa040;
+   font-family: "Maiandra GD", "Malgun Gothic", "Lucida Sans Unicode", Serif;
+   font-size: 0.8em;
+}
+
+#menu_actions_jeu #infos p
+{
+   font-size: 0.68em;
+}
+
+#menu_actions_jeu #nouveau_message
+{
+   color: green;
+}
+
+#menu_actions_jeu #nouvelle_postulation
+{
+   color: #a5292c;
+}
+
+#menu_actions_index
+{
+   margin-left: 10px;
+   float: left;
+   position: relative;
+   border-style: outset;
+   border-width: 5px;
+   background-image: url("images/Templates/design_defaut/Fonds/fond3.jpg");
+   border-color: rgb(255, 255, 210);
+   font-size: 0.9em;
+   width: 200px;
+
+   text-align:left;
+   
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#pied_de_page
+{
+   min-width: 550px;
+   padding: 10px;
+   position: relative;
+   margin-left: 270px;
+   width: 61%;
+   border-style: outset;
+   border-width: 6px;
+   background-image: url("images/Templates/design_defaut/Fonds/fond3.jpg");
+   border-color: rgb(255, 255, 210);
+   
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#pied_de_page #pub{
+}
+
+#centre_popup
+{
+   padding: 10px;
+   position: relative;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   border-style: outset;
+   border-width: 3px;
+   background-image: url("images/Templates/design_defaut/Fonds/fond3.jpg");
+   border-color: rgb(255, 255, 210);
+   overflow: auto;
+   font-size: 0.95em;
+   
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#centre
+{
+   min-width: 550px;
+   padding: 10px;
+   position: relative;
+   margin-left: 270px;
+   margin-bottom: 10px;
+   width: 61%;
+   border-style: outset;
+   border-width: 6px;
+   background-image: url("images/Templates/design_defaut/Fonds/fond3.jpg");
+   border-color: rgb(255, 255, 210);
+   overflow: auto;
+   font-size: 1.05em;
+   
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#centre table
+{
+   width: 100%;
+   border-collapse: collapse;
+   padding: 4px;
+   font-size: 0.88em;
+}
+
+#centre .table_invisible td
+{
+   border: none;
+}
+
+#centre .table_invisible tr:hover
+{
+   background: none;
+}
+
+#centre .table_visible td
+{
+   border: 1px solid black;
+   padding: 4px;
+}
+
+#centre .table_visible tr:hover
+{
+   background-color: #9fa040;
+}
+
+#centre .table_visible th
+{
+   border: 1px solid black;
+   border-top: 3px solid black;
+   background-color: #9fa040;
+}
+
+#centre caption
+{
+   margin-bottom: 3px;
+}
+
+#centre h1, h2, h3, h4, h5, h6
+{
+   font-weight: bold;
+   font-family: Meiryo, serif;
+   color: #143d47;
+   margin: 5px;
+}
+
+#centre td
+{
+   border: 1px solid black;
+   padding: 4px;
+}
+
+#centre tr:hover
+{
+   background-color: #9fa040;
+}
+
+#centre th
+{
+   border: 1px solid black;
+   border-top: 3px solid black;
+   background-color: #9fa040;
+}
+
+#centre fieldset
+{
+   border: 5px solid black;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#centre fieldset legend
+{
+   color: #6b3a00;
+}
+
+#centre .news
+{
+   text-align: left;
+   font-size: 0.9em;
+   white-space: pre-line;
+   max-height: 600px;
+   overflow: auto;
+}
+
+#centre .news_date
+{
+   font-size: 0.7em;
+   text-align: right;
+}
+
+#point_liste_infanterie
+{
+list-style-image: url("images/Templates/design_defaut/Puces/epee_puce.gif");
+}
+
+#point_liste_assassin
+{
+list-style-image: url("images/Templates/design_defaut/Puces/shuriken_puce.gif");
+}
+
+#point_liste_archer
+{
+list-style-image: url("images/Templates/design_defaut/Puces/arc_puce.gif");
+}
+
+#centre  #case_connexion
+{
+   position: relative;
+   border-style: solid;
+   border-width: 5px;
+   background-color: #9fa040;
+}
+
+#centre .message
+{
+   text-align: left;
+   margin: 35px;
+   white-space: pre-line;
+   text-indent: 20px;
+   overflow: auto;
+   width: 80%;
+   max-height: 500px;
+   font-family: "Monotype Corsiva", "Belwe Cn BT", serif;
+}
+
+#centre .message:first-letter
+{
+   font-size: 1.8em;
+}
+
+#centre .date_message
+{
+   font-size: 0.7em;
+   text-align: right;
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
+
+#centre #description_niveau
+{
+   text-indent: 20px;
+   color: #a52a2a;
+   font-size: 1.1em;
+}
+
+#centre .nouveau_message_liste
+{
+   background-image: url("images/Templates/design_defaut/Fonds/fond3.jpg");
+   font-weight: bold;
+}
+
+#centre .message_forum
+{
+   text-align: left;
+   font-family: "Maiandra GD", "Malgun Gothic", "Meiryo UI", serif;
+   color: black;
+   white-space: pre-line;
+   font-size: 0.8em;
+}
+
+#centre .emmeteur_message_forum
+{
+   font-size: 0.8em;
+   text-align: center;
+}
+
+#centre #table_stats_joueur th
+{
+   border: none;
+   background: none;
+}
+
+#centre #table_stats_joueur td
+{
+   border: none;
+   background: none;
+}
+
+#centre #description_joueur
+{
+   white-space: pre-line;
+}
+
+#centre .signature
+{
+   font-family: "French Script MT", "Edwardian Script ITC", "Belwe Cn BT", serif;
+   text-align: right;
+   white-space: pre-line;
+   color: #6b1260;
+}
+
+#centre .signature_message
+{
+   font-family: "French Script MT", "Edwardian Script ITC", "Belwe Cn BT", serif;
+   text-align: right;
+   white-space: pre-line;
+   text-indent: 20px;
+   color: #6b1260;
+}
+
+#centre #div_messagerie
+{
+   border-style: solid;
+   border-width: 10px;
+}
+
+#centre #table_carte
+{
+   margin-top: 10px;
+}
+
+#centre #table_carte tr:hover
+{
+   background: none;
+}
+
+#centre #table_carte td
+{
+   width: 65px;
+   height: 65px;
+}
+
+#centre #table_inscription tr:hover, tr
+{
+   background: none;
+}
+
+#centre #table_inscription p, em
+{
+   margin: 5px;
+}
+
+#centre #table_creer_alliance tr:hover
+{
+   background: none;
+}
+
+#centre #message_alliance
+{
+   text-align: left;
+   font-size: 0.8em;
+   white-space: pre-line;
+   overflow: auto;
+   max-height: 500px;
+}
+
+#centre #table_postulation td
+{
+   height: 140px;
+}
+
+#centre #combat 
+{
+   text-align: left;
+}
+
+#centre #table_espionnage td
+{
+   text-align: left;
+}
+
+#centre .infos_pages_forum_p
+{
+   font-family: arial, serif;
+   font-weight: bold;
+   font-size: 0.6em;
+}
